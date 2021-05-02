@@ -15,7 +15,7 @@ func main() {
 	fmt.Println(secondname)
 
 	ptr := &secondname
-	fmt.Println(ptr, *ptr)
+	fmt.Println(ptr, &ptr, *ptr)
 
 	secondname = "Harish"
 	fmt.Println(ptr, *ptr)
